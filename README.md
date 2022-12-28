@@ -7,4 +7,4 @@ A white board to just write contents and display
 
 # Tech Stack
 
-![Bullet] HTML
+* HTML
