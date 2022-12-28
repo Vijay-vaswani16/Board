@@ -1,4 +1,4 @@
-# Board                                                  https://adorable-phoenix-bbbfe9.netlify.app
+# Board                                                 
 
 A white board to just write contents and display
 
