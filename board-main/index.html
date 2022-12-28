@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+    <div class="selectors">
+        <div class="color-selection board-color">
+            <div class="color-header">Board Colour : </div>
+            <input type="color" name="boardColor" id="board-color" value="#FFFFFF">
+        </div>
+        <div class="color-selection pen-color">
+            <div class="color-header">Pen Colour : </div>
+            <input type="color" name="penColor" id="pen-color">
+        </div>
+    </div>
+    <div class="canvas-container">
+        <canvas id="black-board"></canvas>
+    </div>
+
+    <div class="clear-download-button">
+        <button class="clear" title="Clear Board" onclick="onClear()">Clear</button>
+        <button id="download" title="Download">
+            <img src="/assets/ico/download.svg">
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="colorChanges.js"></script>
+</body>
+
+</html>
